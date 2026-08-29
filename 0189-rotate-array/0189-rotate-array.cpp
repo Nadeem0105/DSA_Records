@@ -2,23 +2,16 @@ class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
         int n = nums.size();
+
         k = k % n;
 
-        vector<int> temp(k);
+        // Reverse the entire array
+        reverse(nums.begin(), nums.end());
 
-        // Store last k elements
-        for (int i = 0; i < k; i++) {
-            temp[i] = nums[n - k + i];
-        }
+        // Reverse the first k elements
+        reverse(nums.begin(), nums.begin() + k);
 
-        // Shift remaining elements to the right
-        for (int i = n - k - 1; i >= 0; i--) {
-            nums[i + k] = nums[i];
-        }
-
-        // Put temp elements at the beginning
-        for (int i = 0; i < k; i++) {
-            nums[i] = temp[i];
-        }
+        // Reverse the remaining elements
+        reverse(nums.begin() + k, nums.end());
     }
 };
