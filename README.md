@@ -6,6 +6,7 @@
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Nadeem0105/DSA_Records/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0088-merge-sorted-array](https://github.com/Nadeem0105/DSA_Records/tree/master/0088-merge-sorted-array) |
+| [0136-single-number](https://github.com/Nadeem0105/DSA_Records/tree/master/0136-single-number) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Nadeem0105/DSA_Records/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Nadeem0105/DSA_Records/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Nadeem0105/DSA_Records/tree/master/0283-move-zeroes) |
@@ -34,4 +35,8 @@
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/Nadeem0105/DSA_Records/tree/master/0189-rotate-array) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/Nadeem0105/DSA_Records/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
